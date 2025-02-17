@@ -86,6 +86,7 @@
             html.enable = true;
             cssls.enable = true;
             biome.enable = true;
+            terraformls.enable = true;
           };
         };
 
