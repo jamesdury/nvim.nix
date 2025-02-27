@@ -73,6 +73,10 @@
 
         -- CodeLens keymap
         vim.api.nvim_set_keymap('n', '<Leader>c d', ':lua vim.lsp.codelens.run()<CR>', { noremap = true, silent = true })
+
+        vim.schedule(function()
+            vim.opt.clipboard = 'unnamedplus'
+        end)
       '';
 
       colorschemes.dracula.enable = true;
